@@ -2,18 +2,18 @@
 <manifest>
 
   <remote  name="vulkan-github"
-           fetch="https://github.com/hustwarhd" />
+           fetch="https://github.com/GPUOpen-Drivers" />
 
   <default revision="master"
            remote="vulkan-github"
            sync-j="8"
            sync-c="true" />
 
-  <project path="drivers/xgl" name="xgl" revision="master"/>
-  <project path="drivers/pal" name="pal" revision="master"/>
-  <project path="drivers/llpc" name="llpc" revision="master"/>
-  <project path="drivers/spvgen" name="spvgen" revision="master"/>
+  <project path="drivers/xgl" name="xgl" revision="a39c836"/>
+  <project path="drivers/pal" name="pal" revision="b88de6c"/>
+  <project path="drivers/llpc" name="llpc" revision="0f67688"/>
+  <project path="drivers/spvgen" name="spvgen" revision="16688e3"/>
   <project path="drivers/AMDVLK" name="AMDVLK" revision="master"/>
-  <project path="drivers/llvm" name="llvm" revision="amd-vulkan-master"/>
+  <project path="drivers/llvm" name="llvm" revision="678b8d52b91"/>
 
 </manifest>
