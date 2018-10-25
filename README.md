@@ -5,6 +5,7 @@ The AMD Open Source Driver for Vulkan&reg; is an open-source Vulkan driver for R
 Shaders that compose a particular `VkPipeline` object are compiled as a single entity using the LLVM-Based Pipeline Compiler (LLPC) library.  LLPC builds on LLVM's existing shader compilation infrastructure for AMD GPUs to generate code objects compatible with PAL's pipeline ABI. Notably, AMD's closed-source Vulkan driver currently uses a different pipeline compiler, which is the major difference between AMD's open-source and closed-source Vulkan drivers.
 
 
+
 ![High-Level Architecture Diagram](topLevelArch.png)
 
 ### Product Support
